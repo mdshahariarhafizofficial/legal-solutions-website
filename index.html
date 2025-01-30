@@ -187,10 +187,10 @@
                     </p>
                 </div>
 
-                <div class="practice-card-container grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
+                <div class="practice-card-container grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 justify-center">
 
                     <!-- Card - 1 -->
-                    <div class="card bg-base-100 w-96 rounded-none border-b border-[#E7E7E7] pt-5">
+                    <div class="card bg-base-100 w-96 rounded-none lg:border-b border-[#E7E7E7] pt-5">
                         <figure class="px-10 pt-10">
                           <img
                             src="images/business.png"
@@ -206,7 +206,7 @@
                         </div>
                       </div>
                     <!-- Card - 2 -->
-                    <div class="card bg-base-100 w-96 rounded-none border-x border-b border-[#E7E7E7] pt-5">
+                    <div class="card bg-base-100 w-96 rounded-none lg:border-x lg:border-b border-[#E7E7E7] pt-5">
                         <figure class="px-10 pt-10">
                           <img
                             src="images/criminal.png"
@@ -222,7 +222,7 @@
                         </div>
                       </div>
                     <!-- Card - 3 -->
-                    <div class="card bg-base-100 w-96 rounded-none border-b border-[#E7E7E7] pt-5">
+                    <div class="card bg-base-100 w-96 rounded-none lg:border-b border-[#E7E7E7] pt-5">
                         <figure class="px-10 pt-10">
                           <img
                             src="images/child.png"
@@ -254,7 +254,7 @@
                         </div>
                       </div>
                     <!-- Card - 5 -->
-                    <div class="card bg-base-100 w-96 rounded-none border-x border-[#E7E7E7] pt-5">
+                    <div class="card bg-base-100 w-96 rounded-none lg:border-x border-[#E7E7E7] pt-5">
                         <figure class="px-10 pt-10">
                           <img
                             src="images/divorce.png"
@@ -292,24 +292,131 @@
         </section>
 
         <!-- Review Section Start -->
-        <section class="review-section">
+        <section class="review-section my-24">
+            <div class="relative container-mid max-w-[1170px] mx-auto">
 
+                <div class="review-sec-top max-w-2xl mx-auto text-center">
+                    <h1 class="mb-5 text-4xl text-justice-secondary font-extrabold">What Our Client Say</h1>
+                    <p class="leading-loose text-justice-pra mt-6 mb-8">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have
+                        suffered alteration in some form, by injected humour.
+                    </p>
+                </div>
+
+                <div class="carousel w-full h-[500px] rounded-xl">
+
+                    <!-- Slide - 1 -->
+                    <div id="slide1" class="flex items-center carousel-item relative w-full bg-[url('images/slider-1.jpg')] bg-no-repeat bg-cover bg-center ">
+
+                        <div class="review-text max-w-2xl mx-auto text-center p-5">
+                            <div class="avatar">
+                                <div class="w-20 rounded-full border-4 mb-5">
+                                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                </div>
+                              </div>
+                            <h3 class="mb-2 text-2xl text-white font-bold">Awlad Hossain</h3>
+                            <h5 class="mb-5 text-base text-white font-normal">UIX Designer</h5>
+                            <p class="leading-loose text-[#F3F3F3] mt-6 mb-8 font-normal text-base">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                            </p>
+                        </div>
+
+                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        
+                        <a href="#slide3" class="btn btn-circle bg-transparent text-white font-extrabold text-2xl border-none hover:text-black">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-transparent text-white font-extrabold text-2xl border-none hover:text-black">❯</a>
+                      </div>
+                    </div>
+
+                    <!-- Slide - 2 -->
+                    <div id="slide2" class="flex items-center carousel-item relative w-full bg-[url('images/slider-2.jpg')] bg-no-repeat bg-cover bg-center">
+                        
+                        <div class="review-text max-w-2xl mx-auto text-center p-5">
+                            <div class="avatar">
+                                <div class="w-20 rounded-full border-4 mb-5">
+                                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                </div>
+                              </div>
+                            <h3 class="mb-2 text-2xl text-white font-bold">Awlad Hossain</h3>
+                            <h5 class="mb-5 text-base text-white font-normal">UIX Designer</h5>
+                            <p class="leading-loose text-[#F3F3F3] mt-6 mb-8 font-normal text-base">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                            </p>
+                        </div>
+                        
+                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle bg-transparent text-white font-extrabold text-2xl border-none hover:text-black">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-transparent text-white font-extrabold text-2xl border-none hover:text-black">❯</a>
+                      </div>
+                    </div>
+
+                    <!-- Slide - 3 -->
+                    <div id="slide3" class="flex items-center carousel-item relative w-full bg-[url('images/slider-3.jpg')] bg-no-repeat bg-cover">
+
+                        <div class="review-text max-w-2xl mx-auto text-center p-5">
+                            <div class="avatar">
+                                <div class="w-20 rounded-full border-4 mb-5">
+                                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                </div>
+                              </div>
+                            <h3 class="mb-2 text-2xl text-white font-bold">Awlad Hossain</h3>
+                            <h5 class="mb-5 text-base text-white font-normal">UIX Designer</h5>
+                            <p class="leading-loose text-[#F3F3F3] mt-6 mb-8 font-normal text-base">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                            </p>
+                        </div>
+
+                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle bg-transparent text-white font-extrabold text-2xl border-none hover:text-black">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-transparent text-white font-extrabold text-2xl border-none hover:text-black">❯</a>
+                      </div>
+                    </div>
+
+                </div>
+                <div class="absolute bottom-16 flex w-full justify-center gap-2 py-2">
+                    <a href="#slide1" class="bg-slate-400 w-10 h-1"></a>
+                    <a href="#slide2" class="bg-slate-400 w-10 h-1"></a>
+                    <a href="#slide3" class="bg-slate-400 w-10 h-1"></a>
+                  </div>
+            </div>
         </section>
 
         <!-- FAQ Section Start -->
         <section class="faq-section">
+            <div class="container-mid max-w-[1170px] mx-auto">
 
+                <div class="review-sec-top max-w-2xl mx-auto text-center">
+                    <h1 class="mb-5 text-4xl text-justice-secondary font-extrabold">What Our Client Say</h1>
+                    <p class="leading-loose text-justice-pra mt-6 mb-8">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have
+                        suffered alteration in some form, by injected humour.
+                    </p>
+                </div>
+
+            </div>
         </section>
 
         <!-- Contact Section Start -->
         <section class="contact-section">
+            <div class="container-mid max-w-[1170px] mx-auto">
 
+                <div class="review-sec-top max-w-2xl mx-auto text-center">
+                    <h1 class="mb-5 text-4xl text-justice-secondary font-extrabold">What Our Client Say</h1>
+                    <p class="leading-loose text-justice-pra mt-6 mb-8">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have
+                        suffered alteration in some form, by injected humour.
+                    </p>
+                </div>
+
+            </div>
         </section>
 
     </main>
     <!-- Footer Section Start -->
     <footer>
+        <div class="container-mid max-w-[1170px] mx-auto">
 
+        </div>
     </footer>
 </body>
 
